@@ -1,0 +1,52 @@
+import requests
+import random
+
+# OpenAI API URL
+api_url = "https://api.openai.com/v1/engines/davinci-codex/completions"
+api_key = "YOUR_API_KEY"  # Repalce！
+
+# Propositional logic formula generation
+def generate_formula():
+    atoms = ['p', 'q', 'r', 's', 't']
+    operators = ['¬', '∧', '∨', '→', '↔']
+    formula = random.choice(atoms)
+    length = random.randint(1, 5) 
+
+    for _ in range(length):
+        formula = random.choice(operators) + formula + random.choice(atoms)
+
+    return formula
+
+# API request
+def query_gpt3(query):
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "prompt": query,
+        "max_tokens": 50 
+    }
+
+    response = requests.post(api_url, headers=headers, json=data)
+    return response.json()
+
+# testiong on ChatGPT3
+def validate_response(formula, response):
+    # Propositional Logic formula
+    return True  
+
+def main():
+    formula = generate_formula()
+    print("Generated Formula:", formula)
+    response = query_gpt3(f"Is the following propositional logic formula valid? {formula}")
+    print("GPT-3 Response:", response)
+
+    if validate_response(formula, response):
+        print("Validation Successful")
+    else:
+        print("Validation Failed")
+
+if __name__ == "__main__":
+    main()
+
