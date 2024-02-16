@@ -66,14 +66,14 @@ questions = questions_text.split('\n')
 def ask_chatgpt(question, api_key):
     # Prompts 1: Add prompt requirement AI to provide a specific example if the propositional logic formula can be satisfied
     # Prompts 2: Simplify(not test yet)
-    prompts = f"{question} If the formula is satisfiable, provide a set of atoms that make the formula true."
+    # prompts = f"{question} If the formula is satisfiable, provide a set of atoms that make the formula true."
     
     response = requests.post(
         'https://api.openai.com/v1/chat/completions',  # Use the v1/chat/completions port
         headers={'Authorization': f'Bearer {api_key}'},
         json={
             'model': 'gpt-3.5-turbo-0125',  # specified model
-            'messages': [{'role': 'user', 'content': question + prompts}]#Message send to CGPT
+            'messages': [{'role': 'user', 'content': question}]#Message send to CGPT
         }
     )
     response_data = response.json()
@@ -86,7 +86,7 @@ def ask_chatgpt(question, api_key):
 
 
 with open('C:/Users/94070/Desktop/499/chatgpt_answers2.txt', 'w', encoding='utf-8') as file:#Save location
-    api_key = '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'
+    api_key = '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'
     question_number = 1 # question number count
     for question in questions:  # Iterate over the question list
         if question.strip():  # Make sure the question is not empty

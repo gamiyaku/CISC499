@@ -51,7 +51,7 @@ def generate_formula():
 
 # Set Jinja environment
 env = Environment(loader=FileSystemLoader('C:/Users/94070/Desktop/499'))#Location of template
-template = env.get_template('template_p3.html')#Choose Jinja template
+template = env.get_template('template_p6.html')#Choose Jinja template
 
 
 # Generate serious of formula
@@ -85,8 +85,8 @@ def ask_chatgpt(question, api_key):
 
 
 
-with open('C:/Users/94070/Desktop/499/chatgpt_answers3.txt', 'w', encoding='utf-8') as file:#Save location
-    api_key = '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'
+with open('C:/Users/94070/Desktop/499/chatgpt_answers6.txt', 'w', encoding='utf-8') as file:#Save location
+    api_key = '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'
     question_number = 1 # question number count
     for question in questions:  # Iterate over the question list
         if question.strip():  # Make sure the question is not empty
