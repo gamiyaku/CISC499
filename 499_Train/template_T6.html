@@ -1,0 +1,3 @@
+{% for formula in formulas %}
+Give the example: for formula "(p &  q) →r  ", it is satisfiable. Give another example: for formula "p  <-> q  ", it is satisfiable. Give another example: for formula "p & !p", it is not satisfiable. Question is: is the propositional logic formula "{{ formula }}" satisfiable?
+{% endfor %}
