@@ -1,0 +1,295 @@
+Question 1: Question is: give the propositional logic formula "(((t -> s) -> (s | ((t -> s) | (t | p)))) | ((t & t) | t))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((t -> s) -> (s | ((t -> s) | (t | p)))) | ((t & t) | t))" is satisfiable. 
+
+One possible group of truth value assignments is:
+t = T, s = T, p = F
+Extracted Truth Assignment: t = T, s = T, p = F
+Correct answer.
+
+Question 2: Question is: give the propositional logic formula "((!((!(!(!(!((p -> t) -> q))))) & (p -> (((!(r -> p)) | q) & p)))) | (r & p))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((!((!(!(!(!((p -> t) -> q))))) & (p -> (((!(r -> p)) | q) & p)))) | (r & p))" is satisfiable. 
+
+One possible group of truth value assignments is:
+p = T, q = F, r = T, t = T.
+Extracted Truth Assignment: p = T, q = F, r = T, t = T
+Correct answer.
+
+Question 3: Question is: give the propositional logic formula "(!((!((!((p -> s) | s)) -> t)) & ((!((t -> (q -> q)) & s)) | (p & r))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(!((!((!((p -> s) | s)) -> t)) & ((!((t -> (q -> q)) & s)) | (p & r)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = F, r = F, s = T, t = F
+Extracted Truth Assignment: p = F, q = F, r = F, s = T, t = F
+Correct answer.
+
+Question 4: Question is: give the propositional logic formula "((((!(p -> (t & r))) -> r) -> (q & ((r & (p & t)) & p))) -> t)", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((((!(p -> (t & r))) -> r) -> (q & ((r & (p & t)) & p))) -> t)" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = T, r = F, t = F
+Extracted Truth Assignment: p = T, q = T, r = F, t = F
+Incorrect answer.
+Question 5: Question is: give the propositional logic formula "(((r | t) | (q | r)) | ((!((r & t) -> (t & (p -> r)))) & p))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((r | t) | (q | r)) | ((!((r & t) -> (t & (p -> r)))) & p))" is satisfiable. 
+
+One possible group of truth value assignments is:
+p = T, q = F, r = T, t = F
+Extracted Truth Assignment: p = T, q = F, r = T, t = F
+Correct answer.
+
+Question 6: Question is: give the propositional logic formula "(((!(q & p)) -> (s & ((!(((t | q) & s) | q)) & t))) & (s & r))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((!(q & p)) -> (s & ((!(((t | q) & s) | q)) & t))) & (s & r))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = T, r = T, s = T, t = F
+Extracted Truth Assignment: p = F, q = T, r = T, s = T, t = F
+Incorrect answer.
+Question 7: Question is: give the propositional logic formula "(!(((q & r) & (!(t & s))) -> (!((r -> (q & (q | s))) | (q -> q)))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(!(((q & r) & (!(t & s))) -> (!((r -> (q & (q | s))) | (q -> q)))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = T, r = F, s = F, t = T
+Extracted Truth Assignment: p = F, q = T, r = F, s = F, t = T
+Incorrect answer.
+Question 8: Question is: give the propositional logic formula "((p | p) -> (p & (((q -> s) -> (!(t | r))) -> (t & (!(s -> q))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((p | p) -> (p & (((q -> s) -> (!(t | r))) -> (t & (!(s -> q))))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = F, r = F, s = F, t = T
+Extracted Truth Assignment: p = T, q = F, r = F, s = F, t = T
+Correct answer.
+
+Question 9: Question is: give the propositional logic formula "((p & p) -> (((!(!((t -> p) | q))) | r) & ((t | p) -> (q & q))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((p & p) -> (((!(!((t -> p) | q))) | r) & ((t | p) -> (q & q))))" is not satisfiable as it leads to a contradiction.
+Extracted Truth Assignment: 
+Incorrect answer.
+Question 10: Question is: give the propositional logic formula "(((s | t) & (!(((!(q & q)) | r) | (q & (r & r))))) & (!(r -> p)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((s | t) & (!(((!(q & q)) | r) | (q & (r & r))))) & (!(r -> p)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = T, r = T, s = F, t = F
+Extracted Truth Assignment: p = F, q = T, r = T, s = F, t = F
+Incorrect answer.
+Question 11: Question is: give the propositional logic formula "((((!(t & (((p & q) -> p) -> t))) & p) | r) | (!((!(q -> s)) | s)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((((!(t & (((p & q) -> p) -> t))) & p) | r) | (!((!(q -> s)) | s)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = F, r = F, s = F, t = F
+Extracted Truth Assignment: p = T, q = F, r = F, s = F, t = F
+Correct answer.
+
+Question 12: Question is: give the propositional logic formula "(((q -> (!(s -> (!(t | q))))) | (p & (r & (t -> r)))) & (s | p))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((q -> (!(s -> (!(t | q))))) | (p & (r & (t -> r)))) & (s | p))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = F, r = T, s = T, t = F
+Extracted Truth Assignment: p = T, q = F, r = T, s = T, t = F
+Correct answer.
+
+Question 13: Question is: give the propositional logic formula "(((s & (!(r & r))) -> (!(p -> p))) | ((!(!(s -> r))) & ((p -> p) | q)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((s & (!(r & r))) -> (!(p -> p))) | ((!(!(s -> r))) & ((p -> p) | q)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = T, r = F, s = T
+Extracted Truth Assignment: p = F, q = T, r = F, s = T
+Incorrect answer.
+Question 14: Question is: give the propositional logic formula "(((!((q & t) -> (q | r))) & ((!(s -> q)) | (s & q))) -> (t & t))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((!((q & t) -> (q | r))) & ((!(s -> q)) | (s & q))) -> (t & t))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = T, r = F, s = T, t = T
+Extracted Truth Assignment: p = F, q = T, r = F, s = T, t = T
+Correct answer.
+
+Question 15: Question is: give the propositional logic formula "(!(!(!((!((s & ((p -> (r -> q)) | (t & t))) & (r -> p))) -> (!(p -> r))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(!(!(!((!((s & ((p -> (r -> q)) | (t & t))) & (r -> p))) -> (!(p -> r))))))" is not satisfiable.
+
+A group of truth assignments that makes the formula unsatisfiable cannot be provided.
+Extracted Truth Assignment: 
+Incorrect answer.
+Question 16: Question is: give the propositional logic formula "(!((t & t) & (s -> ((p & (!(!(!(q & q))))) & (!(t & (q -> (r & p))))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(!((t & t) & (s -> ((p & (!(!(!(q & q))))) & (!(t & (q -> (r & p)))))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = F, r = F, s = T, t = T
+Extracted Truth Assignment: p = T, q = F, r = F, s = T, t = T
+Correct answer.
+
+Question 17: Question is: give the propositional logic formula "((t & (r | t)) | ((p | t) & ((r & ((p -> q) -> p)) | p)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((t & (r | t)) | ((p | t) & ((r & ((p -> q) -> p)) | p)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = F, r = T, t = T
+Extracted Truth Assignment: p = T, q = F, r = T, t = T
+Correct answer.
+
+Question 18: Question is: give the propositional logic formula "((r -> (!(t -> ((!(q & p)) -> ((t -> r) -> r))))) & (r -> (!(r | s))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((r -> (!(t -> ((!(q & p)) -> ((t -> r) -> r))))) & (r -> (!(r | s))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = F, r = T, s = F, t = T
+Extracted Truth Assignment: p = T, q = F, r = T, s = F, t = T
+Incorrect answer.
+Question 19: Question is: give the propositional logic formula "(!((q | r) -> ((((q -> p) | q) & (t & t)) -> (q & (p & s)))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(!((q | r) -> ((((q -> p) | q) & (t & t)) -> (q & (p & s)))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = T, r = F, s = T, t = T
+Extracted Truth Assignment: p = T, q = T, r = F, s = T, t = T
+Incorrect answer.
+Question 20: Question is: give the propositional logic formula "(!(t | ((!(p & p)) | (r -> ((((p -> p) & s) & q) -> (!(r & t)))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(!(t | ((!(p & p)) | (r -> ((((p -> p) & s) & q) -> (!(r & t)))))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = T, r = F, s = F, t = F
+Extracted Truth Assignment: p = T, q = T, r = F, s = F, t = F
+Incorrect answer.
+Question 21: Question is: give the propositional logic formula "(!((!(((r | t) | p) & (!(p | s)))) | (s -> (p | (r | (t & r))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(!((!(((r | t) | p) & (!(p | s)))) | (s -> (p | (r | (t & r))))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, r = T, s = T, t = F
+Extracted Truth Assignment: p = T, r = T, s = T, t = F
+Incorrect answer.
+Question 22: Question is: give the propositional logic formula "((((t & q) -> ((s | r) | ((p -> q) -> r))) | (t -> s)) & r)", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((((t & q) -> ((s | r) | ((p -> q) -> r))) | (t -> s)) & r)" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = T, r = T, s = T, t = T
+Extracted Truth Assignment: p = F, q = T, r = T, s = T, t = T
+Correct answer.
+
+Question 23: Question is: give the propositional logic formula "((!((t & (r | (!((!((!(t | r)) | r)) & r)))) & r)) | (t & (p | p)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((!((t & (r | (!((!((!(t | r)) | r)) & r)))) & r)) | (t & (p | p)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, r = F, t = T
+Extracted Truth Assignment: p = T, r = F, t = T
+Correct answer.
+
+Question 24: Question is: give the propositional logic formula "(((s -> (!(!(q | (t | r))))) | q) | ((!(!(s | ((p & p) & t)))) | q))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((s -> (!(!(q | (t | r))))) | q) | ((!(!(s | ((p & p) & t)))) | q))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = T, r = F, s = F, t = T
+Extracted Truth Assignment: p = T, q = T, r = F, s = F, t = T
+Correct answer.
+
+Question 25: Question is: give the propositional logic formula "((p -> (!(!((s & t) -> (!(s & t)))))) -> (((!(t & t)) | r) -> (r & r)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((p -> (!(!((s & t) -> (!(s & t)))))) -> (((!(t & t)) | r) -> (r & r)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, r = T, s = F, t = F
+Extracted Truth Assignment: p = F, r = T, s = F, t = F
+Correct answer.
+
+Question 26: Question is: give the propositional logic formula "(((p | (!(t & r))) -> ((t -> p) -> t)) -> (!(t -> (t | (r | t)))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((p | (!(t & r))) -> ((t -> p) -> t)) -> (!(t -> (t | (r | t)))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, r = T, t = F
+Extracted Truth Assignment: p = T, r = T, t = F
+Correct answer.
+
+Question 27: Question is: give the propositional logic formula "(p & (s | (!(!(!((!((s -> (r | (s & t))) -> q)) | (!((!(!(r | q))) & s))))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(p & (s | (!(!(!((!((s -> (r | (s & t))) -> q)) | (!((!(!(r | q))) & s)))))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = F, r = T, s = T, t = F
+Extracted Truth Assignment: p = T, q = F, r = T, s = T, t = F
+Correct answer.
+
+Question 28: Question is: give the propositional logic formula "(((q | p) & ((s | (t & (!(!(t -> r))))) | (!(q -> t)))) -> (r -> t))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((q | p) & ((s | (t & (!(!(t -> r))))) | (!(q -> t)))) -> (r -> t))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = F, r = F, s = T, t = F
+Extracted Truth Assignment: p = F, q = F, r = F, s = T, t = F
+Correct answer.
+
+Question 29: Question is: give the propositional logic formula "(((t | s) & (!(r | (!(r | ((s | (q | r)) | q)))))) & (t & s))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((t | s) & (!(r | (!(r | ((s | (q | r)) | q)))))) & (t & s))" is not satisfiable.
+
+Therefore, it is not possible to find a truth assignment that makes the formula satisfiable.
+Extracted Truth Assignment: 
+Incorrect answer.
+Question 30: Question is: give the propositional logic formula "(s | (((!((s -> (!(!(t | t)))) | (!((!(s | p)) & p)))) -> (!(!(r & t)))) -> q))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(s | (((!((s -> (!(!(t | t)))) | (!((!(s | p)) & p)))) -> (!(!(r & t)))) -> q)" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = T, r = F, s = F, t = F
+Extracted Truth Assignment: p = T, q = T, r = F, s = F, t = F
+Correct answer.
+
+Question 31: Question is: give the propositional logic formula "((((t | (r -> t)) | (t -> q)) -> (q & t)) & (s | (p | r)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "((((t | (r -> t)) | (t -> q)) -> (q & t)) & (s | (p | r)))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = F, q = T, r = T, s = F, t = T
+Extracted Truth Assignment: p = F, q = T, r = T, s = F, t = T
+Correct answer.
+
+Question 32: Question is: give the propositional logic formula "((((!(q & q)) -> (q | (r | (!(q & s))))) | (p -> r)) & (!(!(t | t))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 33: Question is: give the propositional logic formula "((r & (r -> p)) -> (!((!((s -> s) -> s)) -> (t -> ((t & s) & q)))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 34: Question is: give the propositional logic formula "((((r -> r) -> (p & r)) -> ((!(r | s)) -> s)) -> ((p & r) | s))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 35: Question is: give the propositional logic formula "((((p -> r) & (!(t & p))) -> (p -> p)) | ((t | p) -> (p -> p)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 36: Question is: give the propositional logic formula "(((t -> (!(t | p))) | q) & (((p | r) -> q) -> ((r & q) -> r)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 37: Question is: give the propositional logic formula "(((q & s) & t) | (!(((!(p | r)) | (q | (s & (p -> p)))) -> t)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 38: Question is: give the propositional logic formula "(((r & p) -> (q | r)) -> (s | ((s -> q) | (s | (!(!(q | s)))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 39: Question is: give the propositional logic formula "(((q | q) & q) -> ((p -> p) -> (t -> ((s | (q | p)) -> p))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Answer: The propositional logic formula "(((q | q) & q) -> ((p -> p) -> (t -> ((s | (q | p)) -> p))))" is satisfiable.
+
+One possible group of truth value assignments is:
+p = T, q = T, s = T, t = T
+Extracted Truth Assignment: p = T, q = T, s = T, t = T
+Correct answer.
+
+Question 40: Question is: give the propositional logic formula "(((s | t) & ((t & p) & s)) -> (((!(!(t & (q | t)))) | s) -> s))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 41: Question is: give the propositional logic formula "(((!(p & r)) | ((q | (((!(!(t -> q))) | q) -> q)) -> q)) -> (!(p | s)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 42: Question is: give the propositional logic formula "((!(!((!(t & t)) | (s & q)))) & ((!(p & (!((p -> r) & (t & r))))) | r))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 43: Question is: give the propositional logic formula "(((!(!((q & q) & (t & r)))) | (!(r | s))) | (!((!(r -> r)) | (p | q))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 44: Question is: give the propositional logic formula "(((t & ((r -> r) | t)) & (((!(q | s)) -> p) & r)) -> (p & p))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 45: Question is: give the propositional logic formula "((!((r & q) & (r & s))) | ((!(q | p)) & ((s -> s) -> (r & r))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 46: Question is: give the propositional logic formula "((!(t | (!(!((r -> t) | (!(s | t))))))) -> (!((t & (t | r)) | (!(r & t)))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 47: Question is: give the propositional logic formula "((!(!(((s -> p) & q) -> r))) & (s | (!(!((!(!((t & p) | s))) & (q -> s))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 48: Question is: give the propositional logic formula "((r & q) | (((q & (!(t | q))) & ((p -> r) | s)) -> (t -> r)))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 49: Question is: give the propositional logic formula "(((t & s) -> s) -> ((!(s | s)) -> (s -> ((!(p -> s)) -> (!(!(s & r)))))))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+Question 50: Question is: give the propositional logic formula "(t & ((!(((t & s) -> (r -> s)) -> ((!(q & (!(!(p -> r))))) & p))) -> t))", does a group of truth assignment that make this  formula satisfiable exist? If exists, answer should only provide just one group of truth value assignments in the format "variable=value", the variable should be in lower case like "p", and the value should in Capitalize first letter like "T" or "F", separated by commas and a space. So answer output should only be truth assignment. You need to make sure that all of atoms in the formula should be defined in the truth assignment. 
+Failed to request the AI to answer this question
+
+There are a total of 50 questions, of which 18 have error responses.
+The accuracy rate is 62.50%.
