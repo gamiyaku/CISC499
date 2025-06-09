@@ -86,7 +86,7 @@ def ask_chatgpt(question, api_key):
 
 
 with open('C:/Users/94070/Desktop/499/chatgpt_answers2.txt', 'w', encoding='utf-8') as file:#Save location
-    api_key = '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'
+    api_key = 'xx'
     question_number = 1 # question number count
     for question in questions:  # Iterate over the question list
         if question.strip():  # Make sure the question is not empty
